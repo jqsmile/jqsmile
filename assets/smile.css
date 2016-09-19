@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Smileicon";
+    src: url("./wbficon.eot"); /* IE9 Compat Modes */
+    /* IE6-IE8 | Modern Browsers | Safari, Android, iOS | Legacy iOS */
+    src: url("./wbficon.eot?#iefix") format("embedded-opentype"),url("./wbficon.woff") format("woff"), url("./wbficon.ttf") format("truetype"), url("./wbficon.svg") format("svg");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.smile_layer_1990 {
+    position: absolute;
+    z-index: 9999;
+    color: #333;
+    text-decoration: none;
+}
+
+.smile_content {
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.2);
+}
+
+.smile_close a {
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    color: #696e78;
+    font-size: 18px;
+    font-family: "Smileicon" !important;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+}
+
+.smile_faces {
+    width: 373px;
+    padding: 26px 16px 15px 16px;
+}
+
+.smile_faces .face_ul {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+    list-style: none;
+}
+
+.smile_faces .face_ul li {
+    float: left;
+    margin: -1px 0 0 -1px;
+    padding: 4px 2px;
+    height: 22px;
+    width: 26px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+}
+
+.smile_faces .face_ul img {
+    border: none;
+}
+
+
+.smile_arrow .bor {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.smile_arrow .bor i, .smile_arrow .bor em {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+.smile_arrow .bor i {
+    border-color: transparent transparent #ccc transparent;
+}
+
+.smile_arrow .bor em {
+    margin-top: 1px;
+    margin-left: -14px;
+    border-color: transparent transparent #fff transparent;
+}
+
